@@ -40,6 +40,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="body.css">
   
+  <!-- Image Preloading for Performance -->
+  <link rel="preload" as="image" href="MDA.png" type="image/png">
+  <link rel="preload" as="image" href="diveshark.jpg" type="image/jpeg">
+  <link rel="preload" as="image" href="background.jpg" type="image/jpeg">
+  <link rel="prefetch" as="image" href="snorkeling.jpg" type="image/jpeg">
+  <link rel="prefetch" as="image" href="islandhopping.jpg" type="image/jpeg">
+  <link rel="prefetch" as="image" href="nails.jpg" type="image/jpeg">
+  <link rel="prefetch" as="image" href="mary.jpg" type="image/jpeg">
+  
   <!-- Structured Data (JSON-LD) -->
   <script type="application/ld+json">
   {
@@ -212,7 +221,7 @@
 <body>
   <header>
     <div class="logo">
-      <img src="MDA.png" alt="Malapascua Diving Adventures Logo">
+      <img src="MDA.png" alt="Malapascua Diving Adventures Logo" decoding="async" fetchpriority="high">
       <div class="logo-text">
         <h1>Malapascua Diving Adventures</h1>
         <span class="logo-tagline">Thresher Shark Dives & Island Tours</span>
