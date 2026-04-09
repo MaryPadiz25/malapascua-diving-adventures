@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <!-- Homepage -->
+    <url>
+        <loc>https://malapascuadivingadventures.com/</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://malapascuadivingadventures.com/photos/diveshark.jpg</image:loc>
+            <image:title>Thresher sharks at Malapascua</image:title>
+        </image:image>
+    </url>
+
+    <!-- Services Section -->
+    <url>
+        <loc>https://malapascuadivingadventures.com/#services</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://malapascuadivingadventures.com/photos/diveshark.jpg</image:loc>
+            <image:title>Scuba diving in Malapascua</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://malapascuadivingadventures.com/photos/snorkeling.jpg</image:loc>
+            <image:title>Snorkeling in Malapascua</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://malapascuadivingadventures.com/photos/islandhopping.jpg</image:loc>
+            <image:title>Island hopping tours</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://malapascuadivingadventures.com/photos/nails.jpg</image:loc>
+            <image:title>Beauty services</image:title>
+        </image:image>
+    </url>
+
+    <!-- Dive Sites Section -->
+    <url>
+        <loc>https://malapascuadivingadventures.com/#divesites</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- About Section -->
+    <url>
+        <loc>https://malapascuadivingadventures.com/#about</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://malapascuadivingadventures.com/photos/mary.jpg</image:loc>
+            <image:title>Mary Joy Padiz - Local diving guide</image:title>
+        </image:image>
+    </url>
+
+    <!-- FAQ Section -->
+    <url>
+        <loc>https://malapascuadivingadventures.com/#faq</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Contact Section -->
+    <url>
+        <loc>https://malapascuadivingadventures.com/#contact</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
