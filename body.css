@@ -7,6 +7,8 @@ body {
   background: linear-gradient(135deg, rgba(20, 50, 80, 0.6), rgba(10, 35, 60, 0.7)),
     url('background.jpg') no-repeat center center/cover;
   background-attachment: fixed;
+  background-size: cover;
+  contain: layout style paint;
 }
 
 h1, h2, h3, .services-label {
@@ -606,7 +608,10 @@ nav ul li.button a:focus-visible {
   height: 260px;
   background-size: cover;
   background-position: center;
+  background-attachment: scroll;
   position: relative;
+  contain: paint;
+  will-change: background-image;
 }
 
 .service-price {
@@ -986,10 +991,13 @@ nav ul li.button a:focus-visible {
   min-height: 520px;
   background-size: cover;
   background-position: center;
+  background-attachment: scroll;
   border-radius: 28px;
   position: relative;
   overflow: hidden;
   box-shadow: 0 18px 45px rgba(17, 67, 93, 0.1);
+  contain: paint;
+  will-change: background-image;
 }
 
 .about-badge {
