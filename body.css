@@ -1409,9 +1409,9 @@ dd.faq-answer {
   background: rgba(10, 30, 55, 0.8);
   backdrop-filter: blur(4px);
   z-index: 1000;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 20px;
+  padding: 60px 20px 20px 20px;
   animation: fadeIn 0.3s ease;
 }
 
@@ -1555,6 +1555,8 @@ dd.faq-answer {
 @media (max-width: 768px) {
   .modal-content {
     padding: 32px 24px;
+    max-height: 90vh;
+    overflow-y: auto;
   }
 
   .modal-content h1 {
@@ -1568,7 +1570,7 @@ dd.faq-answer {
 
 @media (max-width: 480px) {
   .modal-overlay {
-    padding: 16px;
+    padding: 40px 16px 16px 16px;
   }
 
   .modal-content {
