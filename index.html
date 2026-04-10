@@ -641,3 +641,13 @@
     });
   });
 </script>
+<script>
+  const navToggle = document.getElementById('nav-toggle');
+const navLinks = document.querySelectorAll('nav ul li a');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navToggle.checked = false; // uncheck to close menu
+  });
+});
+</script>
