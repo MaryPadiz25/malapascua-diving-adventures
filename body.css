@@ -476,6 +476,7 @@ nav ul li.button a:focus-visible {
 }
 
 @media (max-width: 480px) {
+ 
   header {
     padding: 14px 16px;
   }
@@ -485,7 +486,7 @@ nav ul li.button a:focus-visible {
   }
 
   .logo {
-    gap: 10px;
+  margin-right: 5px;
     padding: 4px 8px;
   }
 
@@ -510,6 +511,7 @@ nav ul li.button a:focus-visible {
     padding: 12px 16px;
     font-size: 0.9rem;
   }
+
 
   .hero {
     padding: 40px 16px;
