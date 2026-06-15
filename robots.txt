@@ -1,19 +1,23 @@
-# Robots.txt for Malapascua Diving Adventures
-# Allow all search engines to crawl the site
+# Robots.txt — Malapascua Diving Adventures
+# https://malapascuadivingadventures.com
 
 User-agent: *
 Allow: /
 Disallow: /private/
+Disallow: /thank-you.html
 
-# Allow specific bots
+# Google
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
-User-agent: Bingbot
+User-agent: Googlebot-Image
 Allow: /
 
-# Sitemap location
-Sitemap: https://malapascuadivingadventures.com/sitemap.xml
-
-# Crawl delay for polite crawling
+# Bing
+User-agent: Bingbot
+Allow: /
 Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://malapascuadivingadventures.com/sitemap.xml
