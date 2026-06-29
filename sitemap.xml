@@ -133,4 +133,30 @@
     <priority>0.85</priority>
   </url>
 
+  <url>
+    <loc>https://malapascuadivingadventures.com/how-to-get-to-malapascua.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/islandhopping.jpg</image:loc>
+      <image:title>Bangka boat heading to Malapascua Island, Cebu Philippines</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://malapascuadivingadventures.com/thresher-shark-dive-malapascua.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/diveshark.jpg</image:loc>
+      <image:title>Scuba diver watching a thresher shark at Kimud Shoal, Malapascua Island</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/ThresherMalapascua.JPG</image:loc>
+      <image:title>Pelagic thresher shark at Kimud Shoal, Malapascua Island Cebu Philippines</image:title>
+    </image:image>
+  </url>
+
 </urlset>
