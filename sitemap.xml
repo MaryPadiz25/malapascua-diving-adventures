@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
-  <!-- Homepage -->
   <url>
     <loc>https://malapascuadivingadventures.com/</loc>
-    <lastmod>2025-06-16</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -14,12 +14,17 @@
       <image:caption>Scuba diver swimming with a pelagic thresher shark at Kimud Shoal, Malapascua Island</image:caption>
     </image:image>
     <image:image>
+      <image:loc>https://malapascuadivingadventures.com/ThresherMalapascua.JPG</image:loc>
+      <image:title>Pelagic thresher shark at Kimud Shoal dive site, Malapascua Island Cebu Philippines</image:title>
+      <image:caption>Thresher shark swimming above coral reef at the famous Kimud Shoal dive site, Malapascua</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://malapascuadivingadventures.com/background.jpg</image:loc>
-      <image:title>Malapascua Island aerial view — tropical diving paradise in Cebu Philippines</image:title>
+      <image:title>Malapascua Island — tropical scuba diving paradise in Cebu Philippines</image:title>
     </image:image>
     <image:image>
       <image:loc>https://malapascuadivingadventures.com/snorkeling.jpg</image:loc>
-      <image:title>Snorkeling in clear blue waters near Malapascua Island, Cebu</image:title>
+      <image:title>Snorkeling in crystal-clear blue waters near Malapascua Island, Cebu</image:title>
     </image:image>
     <image:image>
       <image:loc>https://malapascuadivingadventures.com/islandhopping.jpg</image:loc>
@@ -31,54 +36,99 @@
     </image:image>
     <image:image>
       <image:loc>https://malapascuadivingadventures.com/nails.jpg</image:loc>
-      <image:title>Professional nail art and gel beauty services in Malapascua Island</image:title>
+      <image:title>Professional gel nail art and beauty services in Malapascua Island</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://malapascuadivingadventures.com/safetyStop.JPG</image:loc>
-      <image:title>Scuba divers performing safety stop during dive in Malapascua Island</image:title>
+      <image:loc>https://malapascuadivingadventures.com/DiveBuddy1.JPG</image:loc>
+      <image:title>Two scuba divers underwater at Malapascua Island dive site, Cebu Philippines</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/DiveBuddy2.JPG</image:loc>
+      <image:title>Scuba diving buddies exploring reef at Malapascua Island, Cebu Philippines</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/DiveBuddy3big.JPG</image:loc>
+      <image:title>Two scuba divers doing safety stop at Malapascua Island dive site</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/DiveBuddy4.JPG</image:loc>
+      <image:title>Happy scuba divers posing underwater with heart hand signal at Malapascua</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/diver1.JPG</image:loc>
+      <image:title>Solo scuba diver hovering over coral reef at Malapascua Island Cebu Philippines</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/diver2.jpg</image:loc>
+      <image:title>Titan triggerfish and thresher shark spotted during scuba dive at Malapascua</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/diver3big.JPG</image:loc>
+      <image:title>Female scuba diver hovering over vibrant coral reef at Malapascua Island Philippines</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/group.jpg</image:loc>
+      <image:title>Group of scuba divers underwater waving at camera, Malapascua Island Cebu Philippines</image:title>
     </image:image>
     <image:image>
       <image:loc>https://malapascuadivingadventures.com/MDA.png</image:loc>
       <image:title>Malapascua Diving Adventures logo — thresher shark dive specialist Cebu Philippines</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://malapascuadivingadventures.com/ThresherMalapascua.JPG</video:thumbnail_loc>
+      <video:title>Pelagic Thresher Shark at Kimud Shoal — Malapascua Island, Cebu Philippines</video:title>
+      <video:description>Real footage of a pelagic thresher shark at the famous Kimud Shoal dive site, Malapascua Island. One of the world's best places to dive with thresher sharks.</video:description>
+      <video:content_loc>https://malapascuadivingadventures.com/ThresherShark.MP4</video:content_loc>
+      <video:duration>60</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
 
-  <!-- Services section -->
   <url>
     <loc>https://malapascuadivingadventures.com/#services</loc>
-    <lastmod>2025-06-16</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Dive Sites section -->
+  <url>
+    <loc>https://malapascuadivingadventures.com/#pricing</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <url>
     <loc>https://malapascuadivingadventures.com/#divesites</loc>
-    <lastmod>2025-06-16</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- About section -->
   <url>
-    <loc>https://malapascuadivingadventures.com/#about</loc>
-    <lastmod>2025-06-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- FAQ section -->
-  <url>
-    <loc>https://malapascuadivingadventures.com/#faq</loc>
-    <lastmod>2025-06-16</lastmod>
+    <loc>https://malapascuadivingadventures.com/#gallery</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
-  <!-- Contact section -->
+  <url>
+    <loc>https://malapascuadivingadventures.com/#about</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://malapascuadivingadventures.com/#faq</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <url>
     <loc>https://malapascuadivingadventures.com/#contact</loc>
-    <lastmod>2025-06-16</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
