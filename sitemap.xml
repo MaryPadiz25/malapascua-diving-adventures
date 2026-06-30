@@ -159,4 +159,15 @@
     </image:image>
   </url>
 
+  <url>
+    <loc>https://malapascuadivingadventures.com/guest-stories.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://malapascuadivingadventures.com/group.jpg</image:loc>
+      <image:title>Travelers enjoying island life and diving at Malapascua Island, Cebu Philippines</image:title>
+    </image:image>
+  </url>
+
 </urlset>
