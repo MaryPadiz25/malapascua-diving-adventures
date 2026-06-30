@@ -1146,6 +1146,7 @@ nav ul li.button a::after { display: none; }
 .blog-intro { font-size: clamp(.9rem,1.4vw,1.05rem); color: #7a8a95; margin: 0 auto 40px; max-width: 560px; line-height: 1.7; }
 .blog-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
 @media (min-width: 640px) { .blog-grid { grid-template-columns: repeat(2,1fr); } }
+@media (min-width: 980px) { .blog-grid { grid-template-columns: repeat(3,1fr); } }
 .blog-card {
   background: #fff; border-radius: 16px; overflow: hidden;
   box-shadow: 0 4px 18px rgba(0,0,0,.07); text-decoration: none;
