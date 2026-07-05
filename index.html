@@ -313,14 +313,14 @@
       display:flex;justify-content:space-between;align-items:center;
       padding:clamp(10px,2vw,20px) clamp(16px,4vw,50px);
       backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
-      background:rgba(10,30,55,.88);
+      background:linear-gradient(120deg, rgba(10,26,48,.92), rgba(20,20,40,.9));
       border-bottom:1px solid rgba(255,255,255,.1);
     }
     .logo{display:flex;align-items:center;gap:12px;padding:6px 12px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.2);text-decoration:none;}
     .logo img{width:clamp(36px,6vw,56px);height:clamp(36px,6vw,56px);border-radius:8px;border:2px solid rgba(255,255,255,.3);object-fit:contain;}
     .logo-text{display:flex;flex-direction:column;gap:2px;}
     .logo-text h1{margin:0;font-size:clamp(.85rem,2vw,1.35rem);font-weight:700;color:#fff;letter-spacing:.3px;}
-    .logo-tagline{font-size:clamp(.55rem,1.2vw,.72rem);color:#00d4ff;font-weight:500;letter-spacing:1px;text-transform:uppercase;}
+    .logo-tagline{font-size:clamp(.55rem,1.2vw,.72rem);color:#ffb347;font-weight:500;letter-spacing:1px;text-transform:uppercase;}
     #nav-toggle{position:absolute;opacity:0;pointer-events:none;}
     .hamburger{display:none;flex-direction:column;cursor:pointer;gap:5px;z-index:101;padding:4px;background:none;border:none;}
     .hamburger span{width:26px;height:3px;background:#fff;border-radius:2px;transition:transform .3s,opacity .3s;}
@@ -330,29 +330,47 @@
     nav{flex:1;}
     nav ul{list-style:none;display:flex;justify-content:flex-end;align-items:center;gap:clamp(14px,2.5vw,32px);margin:0;padding:0;}
     nav ul li a{color:#fff;text-decoration:none;font-size:clamp(.82rem,1.2vw,.92rem);font-weight:500;transition:color .2s;white-space:nowrap;}
-    nav ul li a:hover,nav ul li a:focus-visible{color:#00d4ff;}
-    nav ul li.button a{background:linear-gradient(135deg,#00d4ff,#0099cc);color:#fff;padding:10px 20px;border-radius:25px;font-weight:600;}
+    nav ul li a:hover,nav ul li a:focus-visible{color:#ffb347;}
+    nav ul li.button a{background:linear-gradient(135deg,#ffb347,#ff5f7e);color:#fff;padding:10px 20px;border-radius:25px;font-weight:600;}
 
     /* HERO */
     .hero{
+      position:relative;
+      isolation:isolate;
+      overflow:hidden;
       display:flex;flex-direction:column;align-items:center;justify-content:center;
       min-height:calc(100svh - 65px);
       padding:clamp(40px,8vw,80px) clamp(16px,5vw,40px);
       text-align:center;
+      background:#08182c;
     }
-    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,212,255,.15);border:1px solid rgba(0,212,255,.4);border-radius:30px;padding:6px 16px;margin-bottom:20px;font-size:.82rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#00d4ff;}
+    .hero-video{
+      position:absolute;inset:0;
+      width:100%;height:100%;
+      object-fit:cover;object-position:center 60%;
+      z-index:0;
+      filter:saturate(1.05) brightness(.9);
+    }
+    .hero-video-overlay{
+      position:absolute;inset:0;z-index:1;
+      background:
+        linear-gradient(180deg, rgba(6,16,32,.55) 0%, rgba(8,20,38,.45) 40%, rgba(10,15,30,.75) 100%),
+        linear-gradient(115deg, rgba(255,123,84,.28) 0%, rgba(10,20,40,.35) 32%, rgba(8,18,36,.55) 60%, rgba(255,140,80,.18) 100%);
+    }
+    .hero-content{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;width:100%;}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,179,71,.15);border:1px solid rgba(255,179,71,.4);border-radius:30px;padding:6px 16px;margin-bottom:20px;font-size:.82rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#ffb347;}
     .hero h2{margin:0 0 16px;font-size:clamp(2rem,6vw,4.5rem);font-weight:700;line-height:1.1;color:#fff;}
     .hero>p{margin:0 auto 32px;max-width:660px;font-size:clamp(.9rem,1.5vw,1.2rem);line-height:1.8;color:rgba(255,255,255,.9);}
     .hero-stats{display:flex;gap:clamp(20px,4vw,48px);justify-content:center;flex-wrap:wrap;margin:0 0 32px;}
     .hero-stat{text-align:center;}
-    .hero-stat strong{display:block;font-size:clamp(1.4rem,3vw,2rem);font-weight:700;color:#00d4ff;}
+    .hero-stat strong{display:block;font-size:clamp(1.4rem,3vw,2rem);font-weight:700;color:#ffb347;}
     .hero-stat span{font-size:.78rem;text-transform:uppercase;letter-spacing:1px;opacity:.8;}
     .buttons{display:flex;gap:clamp(10px,2vw,18px);justify-content:center;flex-wrap:wrap;}
     .buttons a{padding:clamp(11px,1.5vw,14px) clamp(22px,3vw,30px);border-radius:30px;text-decoration:none;font-weight:600;font-size:clamp(.88rem,1.1vw,1rem);transition:all .25s;border:2px solid transparent;}
-    .buttons a:first-child{background:linear-gradient(135deg,#00d4ff,#0099cc);color:#fff;box-shadow:0 6px 20px rgba(0,212,255,.3);}
-    .buttons a:first-child:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(0,212,255,.4);}
+    .buttons a:first-child{background:linear-gradient(135deg,#ffb347,#ff5f7e);color:#fff;box-shadow:0 6px 20px rgba(255,179,71,.3);}
+    .buttons a:first-child:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(255,179,71,.4);}
     .buttons a:last-child{background:transparent;color:#fff;border-color:rgba(255,255,255,.5);}
-    .buttons a:last-child:hover{background:rgba(255,255,255,.1);border-color:#00d4ff;color:#00d4ff;}
+    .buttons a:last-child:hover{background:rgba(255,255,255,.1);border-color:#ffb347;color:#ffb347;}
     .hero-location{margin-top:28px;font-size:.78rem;letter-spacing:3px;text-transform:uppercase;opacity:.7;}
 
     /* MOBILE NAV */
@@ -413,34 +431,40 @@
 
     
     <section class="hero" aria-label="Malapascua Diving Adventures — Thresher Shark Dives and Island Tours">
-      <div class="hero-badge">⭐ SSI &amp; PADI Certified · Malapascua Island, Philippines</div>
-      <h2>Dive with Thresher Sharks<br>in Malapascua Island</h2>
-      <p>Your certified local expert for world-class scuba diving at Kimud Shoal, island hopping to Kalanggaman, snorkeling tours, and gel nail services on Malapascua Island, Cebu, Philippines. Unforgettable underwater adventures from ₱1,500.</p>
+      <video class="hero-video" autoplay muted loop playsinline poster="diveshark.jpg" aria-hidden="true">
+        <source src="ThresherShark.MP4" type="video/mp4">
+      </video>
+      <div class="hero-video-overlay" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-badge">⭐ SSI &amp; PADI Certified · Malapascua Island, Philippines</div>
+        <h2>Dive with Thresher Sharks<br>in Malapascua Island</h2>
+        <p>Your certified local expert for world-class scuba diving at Kimud Shoal, island hopping to Kalanggaman, snorkeling tours, and gel nail services on Malapascua Island, Cebu, Philippines. Unforgettable underwater adventures from ₱1,500.</p>
 
-      <div class="hero-stats" aria-label="Key facts">
-        <div class="hero-stat">
-          <strong>6+</strong>
-          <span>World-Class<br>Dive Sites</span>
+        <div class="hero-stats" aria-label="Key facts">
+          <div class="hero-stat">
+            <strong>6+</strong>
+            <span>World-Class<br>Dive Sites</span>
+          </div>
+          <div class="hero-stat">
+            <strong>PADI</strong>
+            <span>Certified<br>Diver</span>
+          </div>
+          <div class="hero-stat">
+            <strong>5★</strong>
+            <span>Guest<br>Satisfaction</span>
+          </div>
+          <div class="hero-stat">
+            <strong>₱1,500</strong>
+            <span>Starting<br>Price</span>
+          </div>
         </div>
-        <div class="hero-stat">
-          <strong>PADI</strong>
-          <span>Certified<br>Diver</span>
-        </div>
-        <div class="hero-stat">
-          <strong>5★</strong>
-          <span>Guest<br>Satisfaction</span>
-        </div>
-        <div class="hero-stat">
-          <strong>₱1,500</strong>
-          <span>Starting<br>Price</span>
-        </div>
-      </div>
 
-      <div class="buttons">
-        <a href="https://wa.me/639916436458" rel="noopener noreferrer" aria-label="Book via WhatsApp +63 991 643 6458">📲 Book via WhatsApp</a>
-        <a href="#services">View All Services</a>
+        <div class="buttons">
+          <a href="https://wa.me/639916436458" rel="noopener noreferrer" aria-label="Book via WhatsApp +63 991 643 6458">📲 Book via WhatsApp</a>
+          <a href="#services">View All Services</a>
+        </div>
+        <p class="hero-location">📍 Malapascua Island · Cebu · Philippines</p>
       </div>
-      <p class="hero-location">📍 Malapascua Island · Cebu · Philippines</p>
     </section>
 
     
@@ -1293,7 +1317,7 @@
   </script>
 
   <style>
-    .skip-link{position:absolute;top:-40px;left:16px;padding:8px 16px;background:#00d4ff;color:#000;font-weight:700;border-radius:0 0 8px 8px;z-index:9999;transition:top .2s;text-decoration:none;}
+    .skip-link{position:absolute;top:-40px;left:16px;padding:8px 16px;background:#ffb347;color:#000;font-weight:700;border-radius:0 0 8px 8px;z-index:9999;transition:top .2s;text-decoration:none;}
     .skip-link:focus{top:0;}
   </style>
 </body>
