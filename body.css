@@ -22,7 +22,7 @@ body::before {
   object-fit: contain;
 }
 .logo img:hover {
-  border-color: #00d4ff;
+  border-color: #ffb347;
   box-shadow: 0 6px 16px rgba(0,216,255,.3);
 }
 nav ul li a::after {
@@ -30,20 +30,20 @@ nav ul li a::after {
   position: absolute;
   bottom: -4px; left: 0;
   width: 0; height: 2px;
-  background: #00d4ff;
+  background: #ffb347;
   transition: width .3s;
 }
 nav ul li a { position: relative; }
 nav ul li a:hover::after,
 nav ul li a:focus-visible::after { width: 100%; }
 nav ul li.button a {
-  box-shadow: 0 6px 20px rgba(0,212,255,.25);
+  box-shadow: 0 6px 20px rgba(255,179,71,.25);
   transition: transform .25s, box-shadow .25s;
 }
 nav ul li.button a:hover,
 nav ul li.button a:focus-visible {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(0,212,255,.4);
+  box-shadow: 0 10px 30px rgba(255,179,71,.4);
   color: #fff;
 }
 nav ul li.button a::after { display: none; }
@@ -62,8 +62,8 @@ nav ul li.button a::after { display: none; }
 
 .trust-bar {
   background: rgba(10,30,55,.95);
-  border-top: 1px solid rgba(0,212,255,.2);
-  border-bottom: 1px solid rgba(0,212,255,.2);
+  border-top: 1px solid rgba(255,179,71,.2);
+  border-bottom: 1px solid rgba(255,179,71,.2);
   padding: 14px 18px;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -103,7 +103,7 @@ nav ul li.button a::after { display: none; }
 }
 .services-label {
   display: inline-block;
-  color: #00a8cc;
+  color: #ff7b54;
   font-size: .82rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -332,19 +332,19 @@ nav ul li.button a::after { display: none; }
   gap: 8px;
   margin-top: 40px;
   padding: 14px 36px;
-  background: linear-gradient(135deg, #00a8cc, #008a9e);
+  background: linear-gradient(135deg, #ff7b54, #e0455f);
   color: #fff;
   text-decoration: none;
   border-radius: 30px;
   font-weight: 600;
   font-size: clamp(.9rem, 1.2vw, 1.05rem);
   transition: transform .3s, box-shadow .3s;
-  box-shadow: 0 8px 25px rgba(0,168,204,.25);
+  box-shadow: 0 8px 25px rgba(255,123,84,.25);
 }
 .cta-button:hover,
 .cta-button:focus-visible {
   transform: translateY(-3px);
-  box-shadow: 0 12px 32px rgba(0,168,204,.35);
+  box-shadow: 0 12px 32px rgba(255,123,84,.35);
 }
 
 .dive-sites {
@@ -513,7 +513,7 @@ nav ul li.button a::after { display: none; }
 }
 .testimonials-label {
   display: inline-block;
-  color: #00d4ff;
+  color: #ffb347;
   font-size: .82rem;
   font-weight: 700;
   letter-spacing: 3px;
@@ -551,7 +551,7 @@ nav ul li.button a::after { display: none; }
 }
 .testimonial-card:hover {
   background: rgba(255,255,255,.11);
-  border-color: rgba(0,212,255,.3);
+  border-color: rgba(255,179,71,.3);
   transform: translateY(-4px);
 }
 .testimonial-stars {
@@ -566,14 +566,14 @@ nav ul li.button a::after { display: none; }
   font-style: italic;
   quotes: "\201C" "\201D";
 }
-.testimonial-card blockquote::before { content: open-quote; color: #00d4ff; font-size: 1.4rem; line-height: 0; vertical-align: -0.3em; margin-right: 3px; }
-.testimonial-card blockquote::after  { content: close-quote; color: #00d4ff; font-size: 1.4rem; line-height: 0; vertical-align: -0.3em; margin-left: 3px; }
+.testimonial-card blockquote::before { content: open-quote; color: #ffb347; font-size: 1.4rem; line-height: 0; vertical-align: -0.3em; margin-right: 3px; }
+.testimonial-card blockquote::after  { content: close-quote; color: #ffb347; font-size: 1.4rem; line-height: 0; vertical-align: -0.3em; margin-left: 3px; }
 .testimonial-author {
   font-size: .85rem;
   color: rgba(255,255,255,.6);
 }
 .testimonial-author strong {
-  color: #00d4ff;
+  color: #ffb347;
   font-weight: 600;
 }
 
@@ -610,13 +610,13 @@ nav ul li.button a::after { display: none; }
 .about-badge {
   position: absolute;
   bottom: 20px; left: 20px;
-  background: rgba(0,168,204,.95);
+  background: rgba(255,123,84,.95);
   color: #fff;
   font-size: .88rem;
   font-weight: 600;
   padding: 10px 16px;
   border-radius: 22px;
-  box-shadow: 0 8px 20px rgba(0,168,204,.3);
+  box-shadow: 0 8px 20px rgba(255,123,84,.3);
   backdrop-filter: blur(4px);
 }
 .about-copy { text-align: left; }
@@ -713,7 +713,7 @@ nav ul li.button a::after { display: none; }
 .contact-container { max-width: 1000px; margin: 0 auto; text-align: center; }
 .contact-label {
   display: inline-block;
-  color: #00d4ff;
+  color: #ffb347;
   font-size: .82rem;
   font-weight: 700;
   letter-spacing: 3px;
@@ -758,7 +758,7 @@ nav ul li.button a::after { display: none; }
   border-color: rgba(255,255,255,.28);
   transform: translateY(-3px);
 }
-.contact-card svg { color: #00d4ff; }
+.contact-card svg { color: #ffb347; }
 .contact-card h4 { margin: 0; font-size: 1rem; font-weight: 600; }
 .contact-card p  { margin: 0; font-size: .92rem; opacity: .9; }
 
@@ -770,7 +770,7 @@ nav ul li.button a::after { display: none; }
   color: rgba(255,255,255,.75);
   font-size: .9rem;
 }
-.contact-location svg { color: #00d4ff; flex-shrink: 0; }
+.contact-location svg { color: #ffb347; flex-shrink: 0; }
 
 .footer {
   background: #060f1a;
@@ -781,7 +781,7 @@ nav ul li.button a::after { display: none; }
 .footer-content { max-width: 1200px; margin: 0 auto; }
 .footer-content h3 { margin: 0 0 10px; font-size: 1.1rem; color: #fff; }
 .footer-content p  { margin: 0 0 6px; color: rgba(255,255,255,.5); font-size: .83rem; line-height: 1.6; }
-.footer-content a  { color: #00d4ff; text-decoration: none; }
+.footer-content a  { color: #ffb347; text-decoration: none; }
 .footer-content a:hover { text-decoration: underline; }
 
 .modal-overlay {
@@ -866,7 +866,7 @@ nav ul li.button a::after { display: none; }
 }
 .form-group textarea { resize: vertical; min-height: 96px; }
 .submit-btn {
-  background: linear-gradient(135deg, #0f97ae, #00a8cc);
+  background: linear-gradient(135deg, #0f97ae, #ff7b54);
   color: #fff;
   border: none;
   padding: 14px 24px;
@@ -880,7 +880,7 @@ nav ul li.button a::after { display: none; }
 .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(15,151,174,.3); }
 .submit-btn:active { transform: translateY(0); }
 
-:focus-visible { outline: 2px solid #00d4ff; outline-offset: 2px; }
+:focus-visible { outline: 2px solid #ffb347; outline-offset: 2px; }
 
 @media print {
   header, .modal-overlay, .hamburger, .buttons, .trust-bar { display: none !important; }
@@ -901,7 +901,7 @@ nav ul li.button a::after { display: none; }
 }
 .gallery-label {
   display: inline-block;
-  color: #00d4ff;
+  color: #ffb347;
   font-size: .82rem;
   font-weight: 700;
   letter-spacing: 3px;
