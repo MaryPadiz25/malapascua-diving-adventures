@@ -11,7 +11,7 @@
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="author" content="Mary Padiz — Malapascua Diving Adventures">
   <meta name="copyright" content="© 2025 Malapascua Diving Adventures. All rights reserved.">
-  <meta name="theme-color" content="#0f97ae">
+  <meta name="theme-color" content="#2ea3d6">
   <meta name="geo.region" content="PH-CEB">
   <meta name="geo.placename" content="Malapascua Island, Cebu, Philippines">
   <meta name="geo.position" content="11.3667;124.0167">
@@ -313,14 +313,14 @@
       display:flex;justify-content:space-between;align-items:center;
       padding:clamp(10px,2vw,20px) clamp(16px,4vw,50px);
       backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
-      background:linear-gradient(120deg, rgba(10,26,48,.92), rgba(20,20,40,.9));
+      background:linear-gradient(120deg, rgba(28,95,146,.93), rgba(79,170,239,.9));
       border-bottom:1px solid rgba(255,255,255,.1);
     }
     .logo{display:flex;align-items:center;gap:12px;padding:6px 12px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.2);text-decoration:none;}
     .logo img{width:clamp(36px,6vw,56px);height:clamp(36px,6vw,56px);border-radius:8px;border:2px solid rgba(255,255,255,.3);object-fit:contain;}
     .logo-text{display:flex;flex-direction:column;gap:2px;}
-    .logo-text h1{margin:0;font-size:clamp(.85rem,2vw,1.35rem);font-weight:700;color:#fff;letter-spacing:.3px;}
-    .logo-tagline{font-size:clamp(.55rem,1.2vw,.72rem);color:#ffb347;font-weight:500;letter-spacing:1px;text-transform:uppercase;}
+    .logo-text h1{margin:0;font-size:clamp(.85rem,2vw,1.35rem);font-weight:700;color:#fff;letter-spacing:.3px;text-shadow:0 1px 4px rgba(6,20,38,.4);}
+    .logo-tagline{font-size:clamp(.55rem,1.2vw,.72rem);color:#ffd166;font-weight:500;letter-spacing:1px;text-transform:uppercase;}
     #nav-toggle{position:absolute;opacity:0;pointer-events:none;}
     .hamburger{display:none;flex-direction:column;cursor:pointer;gap:5px;z-index:101;padding:4px;background:none;border:none;}
     .hamburger span{width:26px;height:3px;background:#fff;border-radius:2px;transition:transform .3s,opacity .3s;}
@@ -329,9 +329,9 @@
     #nav-toggle:checked+.hamburger span:nth-child(3){transform:rotate(-45deg) translate(7px,-7px);}
     nav{flex:1;}
     nav ul{list-style:none;display:flex;justify-content:flex-end;align-items:center;gap:clamp(14px,2.5vw,32px);margin:0;padding:0;}
-    nav ul li a{color:#fff;text-decoration:none;font-size:clamp(.82rem,1.2vw,.92rem);font-weight:500;transition:color .2s;white-space:nowrap;}
-    nav ul li a:hover,nav ul li a:focus-visible{color:#ffb347;}
-    nav ul li.button a{background:linear-gradient(135deg,#ffb347,#ff5f7e);color:#fff;padding:10px 20px;border-radius:25px;font-weight:600;}
+    nav ul li a{color:#fff;text-decoration:none;font-size:clamp(.82rem,1.2vw,.92rem);font-weight:500;transition:color .2s;white-space:nowrap;text-shadow:0 1px 4px rgba(6,20,38,.4);}
+    nav ul li a:hover,nav ul li a:focus-visible{color:#ffd166;}
+    nav ul li.button a{background:linear-gradient(135deg,#f4a940,#1f8fc4);color:#fff;padding:10px 20px;border-radius:25px;font-weight:600;}
 
     /* HERO */
     .hero{
@@ -342,7 +342,7 @@
       min-height:calc(100svh - 65px);
       padding:clamp(40px,8vw,80px) clamp(16px,5vw,40px);
       text-align:center;
-      background:#08182c;
+      background:#0d2c4a;
     }
     .hero-video{
       position:absolute;inset:0;
@@ -355,22 +355,22 @@
       position:absolute;inset:0;z-index:1;
       background:
         linear-gradient(180deg, rgba(6,16,32,.55) 0%, rgba(8,20,38,.45) 40%, rgba(10,15,30,.75) 100%),
-        linear-gradient(115deg, rgba(255,123,84,.28) 0%, rgba(10,20,40,.35) 32%, rgba(8,18,36,.55) 60%, rgba(255,140,80,.18) 100%);
+        linear-gradient(115deg, rgba(255,180,84,.28) 0%, rgba(10,20,40,.35) 32%, rgba(8,18,36,.55) 60%, rgba(109,201,238,.18) 100%);
     }
     .hero-content{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;width:100%;}
-    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,179,71,.15);border:1px solid rgba(255,179,71,.4);border-radius:30px;padding:6px 16px;margin-bottom:20px;font-size:.82rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#ffb347;}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,209,102,.15);border:1px solid rgba(255,209,102,.4);border-radius:30px;padding:6px 16px;margin-bottom:20px;font-size:.82rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#ffd166;}
     .hero h2{margin:0 0 16px;font-size:clamp(2rem,6vw,4.5rem);font-weight:700;line-height:1.1;color:#fff;}
     .hero>p{margin:0 auto 32px;max-width:660px;font-size:clamp(.9rem,1.5vw,1.2rem);line-height:1.8;color:rgba(255,255,255,.9);}
     .hero-stats{display:flex;gap:clamp(20px,4vw,48px);justify-content:center;flex-wrap:wrap;margin:0 0 32px;}
     .hero-stat{text-align:center;}
-    .hero-stat strong{display:block;font-size:clamp(1.4rem,3vw,2rem);font-weight:700;color:#ffb347;}
+    .hero-stat strong{display:block;font-size:clamp(1.4rem,3vw,2rem);font-weight:700;color:#ffd166;}
     .hero-stat span{font-size:.78rem;text-transform:uppercase;letter-spacing:1px;opacity:.8;}
     .buttons{display:flex;gap:clamp(10px,2vw,18px);justify-content:center;flex-wrap:wrap;}
     .buttons a{padding:clamp(11px,1.5vw,14px) clamp(22px,3vw,30px);border-radius:30px;text-decoration:none;font-weight:600;font-size:clamp(.88rem,1.1vw,1rem);transition:all .25s;border:2px solid transparent;}
-    .buttons a:first-child{background:linear-gradient(135deg,#ffb347,#ff5f7e);color:#fff;box-shadow:0 6px 20px rgba(255,179,71,.3);}
-    .buttons a:first-child:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(255,179,71,.4);}
+    .buttons a:first-child{background:linear-gradient(135deg,#f4a940,#1f8fc4);color:#fff;box-shadow:0 6px 20px rgba(255,209,102,.3);}
+    .buttons a:first-child:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(255,209,102,.4);}
     .buttons a:last-child{background:transparent;color:#fff;border-color:rgba(255,255,255,.5);}
-    .buttons a:last-child:hover{background:rgba(255,255,255,.1);border-color:#ffb347;color:#ffb347;}
+    .buttons a:last-child:hover{background:rgba(255,255,255,.1);border-color:#ffd166;color:#ffd166;}
     .hero-location{margin-top:28px;font-size:.78rem;letter-spacing:3px;text-transform:uppercase;opacity:.7;}
 
     /* MOBILE NAV */
@@ -1317,7 +1317,7 @@
   </script>
 
   <style>
-    .skip-link{position:absolute;top:-40px;left:16px;padding:8px 16px;background:#ffb347;color:#000;font-weight:700;border-radius:0 0 8px 8px;z-index:9999;transition:top .2s;text-decoration:none;}
+    .skip-link{position:absolute;top:-40px;left:16px;padding:8px 16px;background:#ffd166;color:#000;font-weight:700;border-radius:0 0 8px 8px;z-index:9999;transition:top .2s;text-decoration:none;}
     .skip-link:focus{top:0;}
   </style>
 </body>
